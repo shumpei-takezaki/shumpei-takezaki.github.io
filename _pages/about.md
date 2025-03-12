@@ -20,13 +20,7 @@ My research is on generative modeling. I am particularly interested in the appli
 - <span style="color:green"> [Paper Acceptance]: </span> [Cross-Domain Image Conversion by CycleDM](https://arxiv.org/abs/2403.02919) got accepted to **ICDAR 2024**.
 
 ## Recent Publications
-For a more comprehensive list of publications, please see [Publications](/publications/) or visit [Google Scholar](https://scholar.google.com/citations?user=TJHgmY8AAAAJ&hl=en) page.
-{% include base_path %}
-
-{% assign sorted = site.publications | reverse %}
-{% for post in sorted limit:3 %}
-  {% include archive-single.html %}
-{% endfor %}
+Please see [Publications](/publications/) or visit [Google Scholar](https://scholar.google.com/citations?user=TJHgmY8AAAAJ&hl=en) page.
 
 ## Contact
 - Address: Human Interface Laboratory, Department of Advanced Information Technology, Kyushu University. 744, Motooka, Nishi-ku, Fukuoka-shi, 819-0395 JAPAN
