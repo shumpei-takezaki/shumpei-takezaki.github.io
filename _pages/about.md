@@ -27,3 +27,8 @@ For a more comprehensive list of publications, please visit my [Google Scholar](
 {% for post in sorted %}
   {% include archive-single.html %}
 {% endfor %}
+
+## Contact
+Human Interface Laboratory, Department of Advanced Information Technology, Kyushu University. 744, Motooka, Nishi-ku, Fukuoka-shi, 819-0395 JAPAN
+TEL: +81-92-802-3574
+E-mail: shumpei.takezaki[at]human.ait.kyushu-u.ac.jp
