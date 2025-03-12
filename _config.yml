@@ -27,8 +27,8 @@ author:
   # pronouns         : # example: "she/her"  
   bio              : "Ph.D. student, Kyushu Univ."
   location         : "Fukuoka, JAPAN"
-  # employer         : "Red Brick University"
-  uri              : # URL
+  employer         : "Kyushu University"
+  # uri              : # URL
   email            : "shumpei.takezaki@human.ait.kyushu-u.ac.jp" 
 
   # Academic websites
@@ -39,7 +39,7 @@ author:
   # semantic         : # URL
   # pubmed           : # URL
   # researchgate     : # URL
-  scopus           : # URL
+  # scopus           : # URL
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
@@ -118,7 +118,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true     # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
 
 
@@ -294,7 +294,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: Etc/UTC # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Tokyo # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
