@@ -8,11 +8,6 @@ redirect_from:
 ---
 
 ## Biography
-<style>
-  a {
-    text-decoration: none;
-  }
-</style>
 I am Shumpei Takezaki (竹崎 隼平 in Japanse), a Ph.D student at Kyushu University, Fukuoka, JAPAN, under the supervision of [Prof. Seiichi Uhicda](https://human.ait.kyushu-u.ac.jp/~uchida/index-e.html).
 
 Before starting my Ph.D, I received my undergraduate degree in ECE from the Kagoshima Technical College, Kagoshima, JAPAN.
