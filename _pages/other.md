@@ -2,9 +2,9 @@
 permalink: /other/
 title: ""
 author_profile: true
-redirect_from: 
-  - /other/
-  - /other.html
+redirect_from:
+  - "/other/"
+  - "/other.html"
 ---
 
 ## Awards
