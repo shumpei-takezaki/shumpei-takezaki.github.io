@@ -1,13 +1,11 @@
 ---
-layout: archive
-title: ""
 permalink: /others/
+title: ""
 author_profile: true
 redirect_from: 
   - /others/
+  - /others.html
 ---
-
-{% include base_path %}
 
 ## Awards
 * MIRU2024 学生奨励賞，``誤りのある順序付きラベルでの自己緩和型共同学習'による重症度推定"，画像の認識・理解シンポジウム (MIRU)，2024年8月9日
