@@ -18,6 +18,7 @@ My research is on generative modeling. I am particularly interested in the appli
 - <span style="color:green"> [Paper Acceptance]: </span> [Self-Relaxed Joint Training: Sample Selection for Severity Estimation with Ordinal Noisy Labels](https://arxiv.org/abs/2410.21885) got accepted to **WACV 2025 Oral**.
 - <span style="color:green"> [Paper Acceptance]: </span> [Guidance-base Diffusion Models for Improving Photoacoustic Image Quality](https://arxiv.org/abs/2502.06354) got accepted to **BMVC 2024**.
 - <span style="color:green"> [Paper Acceptance]: </span> [Cross-Domain Image Conversion by CycleDM](https://arxiv.org/abs/2403.02919) got accepted to **ICDAR 2024**.
+- <span style="color:green"> [Paper Acceptance]: </span> [Font Style Interpolation with Diffusion Models](https://arxiv.org/abs/2402.14311) got accepted to **ICDAR 2024**.
 
 ## Recent Publications
 Please see [Publications](/publications/) or visit [Google Scholar](https://scholar.google.com/citations?user=TJHgmY8AAAAJ&hl=en) page.
