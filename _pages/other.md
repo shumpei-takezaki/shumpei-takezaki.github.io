@@ -1,10 +1,10 @@
 ---
-permalink: /other/
-title: "other"
+permalink: /others/
+title: ""
 author_profile: true
 redirect_from: 
-  - /other/
-  - /other.html
+  - /others/
+  - /others.html
 ---
 
 ## Awards
