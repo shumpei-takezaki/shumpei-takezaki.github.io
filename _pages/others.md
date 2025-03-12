@@ -1,10 +1,9 @@
 ---
-permalink: /list_others/
 title: ""
-author_profile: true
+permalink: /others/
 redirect_from: 
-  - /list_others/
-  - /list_others.html
+  - /others/
+author_profile: true
 ---
 
 ## Awards
