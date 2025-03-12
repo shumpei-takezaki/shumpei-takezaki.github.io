@@ -19,6 +19,9 @@ main:
         
   # - title: "Blog Posts"
   #   url: /year-archive/
+
+  - title: "Others"
+    url: /others/
     
   - title: "CV"
     url: https://drive.google.com/file/d/16S_xjhWG2CFuZC0gU9QAw-1XPSFUB-l7/view?usp=sharing
