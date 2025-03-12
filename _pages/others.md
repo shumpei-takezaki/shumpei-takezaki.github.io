@@ -1,10 +1,10 @@
 ---
-permalink: /markdown/
+permalink: /list_others/
 title: ""
 author_profile: true
 redirect_from: 
-  - /others/
-  - /others.html
+  - /list_others/
+  - /list_others.html
 ---
 
 ## Awards
