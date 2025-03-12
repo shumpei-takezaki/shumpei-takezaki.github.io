@@ -24,7 +24,7 @@ For a more comprehensive list of publications, please visit my [Google Scholar](
 {% include base_path %}
 
 {% assign sorted = site.publications | reverse %}
-{% for post in sorted %}
+{% for post in sorted limit:3 %}
   {% include archive-single.html %}
 {% endfor %}
 
