@@ -6,6 +6,11 @@ redirect_from:
   - /about/
   - /about.html
 ---
+<style>
+  a {
+    text-decoration: none;
+  }
+</style>
 
 ## Biography
 I am Shumpei Takezaki (竹崎 隼平 in Japanse), a Ph.D student at Kyushu University, Fukuoka, JAPAN, under the supervision of [Prof. Seiichi Uhicda](https://human.ait.kyushu-u.ac.jp/~uchida/index-e.html).
