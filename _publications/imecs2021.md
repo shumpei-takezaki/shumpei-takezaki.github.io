@@ -5,7 +5,7 @@ category: conferences
 permalink: /publication/imecs2021
 excerpt: ''
 status: 'Published'
-venue: 'ISBI 2023'
+venue: 'IMECS 2021'
 authors: '<strong> Shumpei Takezaki</strong>, Kazuya Kishida'
 paperurl: https://www.iaeng.org/publication/IMECS2021/IMECS2021_pp18-23.pdf
 code: 
