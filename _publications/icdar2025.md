@@ -5,10 +5,10 @@ category: conferences
 permalink: /publication/icdar2025
 excerpt: ''
 status: 'Published'
-venue: 'ICDAR 2024'
+venue: 'ICDAR 2025'
 authors: 'Takumi Yoshimatsu, <strong> Shumpei Takezaki</strong>, Seiichi Uchida'
 paperurl: ''
-code: 
+code: ''
 date: 2025-07-16
 ---
 
