@@ -15,9 +15,9 @@ Before starting my Ph.D, I received my undergraduate degree in ECE from the Kago
 My research is on generative modeling. I am particularly interested in the applications of generative modeling for medical imaging.
 
 ## News
+- <span style="color:green"> [Paper Acceptance]: </span> [NoiseCutMix: A Novel Data Augmentation Approach by Mixing Estimated Noise in Diffusion Models](https://arxiv.org/abs/2509.00378) got accepted to **ICCV 2025 Workshop**.
+- <span style="color:green"> [Paper Acceptance]: </span> [Few-Part-Shot Font Generation]() got accepted to **ICDAR 2025 Workshop**.
 - <span style="color:green"> [Paper Acceptance]: </span> [Inverse Scene Text Removal](https://arxiv.org/abs/2506.21002) got accepted to **ICDAR 2025**.
-- <span style="color:green"> [Paper Acceptance]: </span> [Self-Relaxed Joint Training: Sample Selection for Severity Estimation with Ordinal Noisy Labels](https://arxiv.org/abs/2410.21885) got accepted to **WACV 2025 Oral**.
-- <span style="color:green"> [Paper Acceptance]: </span> [Guidance-base Diffusion Models for Improving Photoacoustic Image Quality](https://arxiv.org/abs/2502.06354) got accepted to **BMVC 2024**.
 
 ## Publications
 For a more comprehensive list of publications, please see [Publications](/publications/) or visit [Google Scholar](https://scholar.google.com/citations?user=TJHgmY8AAAAJ&hl=en) page.
