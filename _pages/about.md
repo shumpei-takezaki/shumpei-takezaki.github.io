@@ -14,10 +14,10 @@ Before starting my Ph.D, I received my undergraduate degree in ECE from the Kago
 
 My research is on generative modeling. I am particularly interested in the applications of generative modeling for medical imaging.
 
-## News
-- <span style="color:green"> [Paper Acceptance]: </span> [NoiseCutMix: A Novel Data Augmentation Approach by Mixing Estimated Noise in Diffusion Models](https://arxiv.org/abs/2509.00378) got accepted to **ICCV 2025 Workshop**.
-- <span style="color:green"> [Paper Acceptance]: </span> [Few-Part-Shot Font Generation]() got accepted to **ICDAR 2025 Workshop**.
-- <span style="color:green"> [Paper Acceptance]: </span> [Inverse Scene Text Removal](https://arxiv.org/abs/2506.21002) got accepted to **ICDAR 2025**.
+## Recent News
+- <span style="color:red"> [Reward]: </span> [Bridging the Density Gap: Diffusion Model for Stepwise Generation of Dense Cell Images from Sparse Data]() got **ISBI 2026 Best Paper Award-Runner UP** (Top 3 papers selected for publication).
+- <span style="color:green"> [Paper Acceptance]: </span> [Cell Instance Segmentation via Multi-Task Image-to-Image Schrödinger Bridge](https://arxiv.org/abs/2604.12318) got accepted to **IJCNN 2026**.
+- <span style="color:green"> [Paper Acceptance]: </span> [SCoRe: Clean Image Generation from Diffusion Models Trained on Noisy Images](https://arxiv.org/abs/2604.09436) got accepted to **IJCNN 2026**.
 
 ## Publications
 For a more comprehensive list of publications, please see [Publications](/publications/) or visit [Google Scholar](https://scholar.google.com/citations?user=TJHgmY8AAAAJ&hl=en) page.
