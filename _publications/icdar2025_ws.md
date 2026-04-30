@@ -5,7 +5,7 @@ category: conferences
 permalink: /publication/icdar2025_ws
 excerpt: ''
 status: 'Published'
-venue: 'ICDAR 2025 Workshop'
+venue: 'ICDAR 2025 Workshop (Best Paper Award)'
 authors: 'Masaki Akiba, <strong> Shumpei Takezaki</strong>, Daichi Haraguchi, Seiichi Uchida'
 paperurl: 
 code: 
