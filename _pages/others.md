@@ -6,7 +6,9 @@ redirect_from:
 author_profile: true
 ---
 
-## Awards
+## Awards\
+* International Symposium on Biomedical Imaging (ISBI), Best Paper Awad-Runner UP, 2026.
+* International Conference on Document Analysis and Recognition Workshop, Best Paper Award, 2025.
 * MIRU2024 学生奨励賞，``誤りのある順序付きラベルでの自己緩和型共同学習'による重症度推定"，画像の認識・理解シンポジウム (MIRU)，2024年8月9日
 * IEEE福岡支部学生研究奨励賞, 2023
 * PRMU月間ベストプレゼンテーション賞，2023.11
