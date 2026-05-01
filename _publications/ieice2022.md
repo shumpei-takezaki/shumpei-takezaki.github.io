@@ -5,7 +5,7 @@ category: domestic
 permalink: /publication/ieice2022
 excerpt: ''
 status: 'Published'
-venue: 'IEICE Kyushu'
+venue: 'IEICE Kyushu 2022'
 authors: '<strong> 竹崎 隼平</strong>，田中聖人，内田誠一，門田健明'
 paperurl: 
 code: 
