@@ -1,0 +1,372 @@
+# Publications — add new entries at the TOP of the list.
+# Required: title, category, venue, authors, date
+# Optional: paperurl, code
+# category: "conferences" / "journals" / "domestic"
+
+- title: "SCoRe: Clean Image Generation from Diffusion Models Trained on Noisy Images"
+  category: conferences
+  venue: "IJCNN 2026"
+  authors: "Yuta Matsuzaki, Seiichi Uchida, <strong>Shumpei Takezaki</strong>"
+  paperurl: "https://arxiv.org/abs/2604.09436"
+  code:
+  date: "2026-06-21"
+
+- title: "Cell Instance Segmentation via Multi-Task Image-to-Image Schrödinger Bridge"
+  category: conferences
+  venue: "IJCNN 2026"
+  authors: "Hayato Inoue, Shota Harada, <strong>Shumpei Takezaki</strong>, Ryoma Bise"
+  paperurl: "https://arxiv.org/abs/2604.12318"
+  code:
+  date: "2026-06-21"
+
+- title: "Bridging the Density Gap: Diffusion Model for Stepwise Generation of Dense Cell Images from Sparse Data"
+  category: conferences
+  venue: "ISBI 2026 (Best Paper Award-Runner Up)"
+  authors: "Masashi Tahara, Kazuya Nishimura, <strong>Shumpei Takezaki</strong>, Ryoma Bise"
+  paperurl:
+  code:
+  date: "2026-04-14"
+
+- title: "VesselFusion: Diffusion Models for Vessel centerline extraction from 3D CT Images"
+  category: conferences
+  venue: "ISBI 2026"
+  authors: "Souichi Mita, <strong>Shumpei Takezaki</strong>, Ryoma Bise"
+  paperurl: "https://arxiv.org/abs/2603.08135"
+  code:
+  date: "2026-04-14"
+
+- title: "学習済み拡散モデル利用時の色調制御の試み"
+  category: domestic
+  venue: "PRMU 2026 January"
+  authors: "永留和真，内田誠一，<strong>竹崎 隼平</strong>，"
+  paperurl:
+  code:
+  date: "2026-01-29"
+
+- title: "拡散モデルによる3次元CT画像からの血管中心線推定"
+  category: domestic
+  venue: "PRMU 2026 January"
+  authors: "見田壮一，<strong>竹崎 隼平</strong>，備瀬竜馬"
+  paperurl:
+  code:
+  date: "2026-01-29"
+
+- title: "Schrödinger Bridgeによる細胞セグメンテーション"
+  category: domestic
+  venue: "PRMU 2026 January"
+  authors: "井上颯人，<strong>竹崎 隼平</strong>，原田翔太，備瀬竜馬"
+  paperurl:
+  code:
+  date: "2026-01-29"
+
+- title: "順序クラス分類におけるデータ拡張"
+  category: domestic
+  venue: "IEICE Kyushu 2025"
+  authors: "相澤卓輝，<strong>竹崎 隼平</strong>，備瀬竜馬，原田翔太"
+  paperurl:
+  code:
+  date: "2025-09-18"
+
+- title: "画像生成を用いた分類器学習"
+  category: domestic
+  venue: "IEICE Kyushu 2025"
+  authors: "河野隼人，<strong>竹崎 隼平</strong>，内田誠一，松尾信之介"
+  paperurl:
+  code:
+  date: "2025-09-18"
+
+- title: "生成と探索に基づくフォント選好"
+  category: domestic
+  venue: "IEICE Kyushu 2025"
+  authors: "宋 容輝，秋庭 正樹，内田誠一，<strong>竹崎 隼平</strong>"
+  paperurl:
+  code:
+  date: "2025-09-18"
+
+- title: "拡散モデルに基づく画像とクラスラベルの共起生成"
+  category: domestic
+  venue: "IEICE Kyushu 2025"
+  authors: "呉哲，江口達大，<strong>竹崎 隼平</strong>，備瀬竜馬"
+  paperurl:
+  code:
+  date: "2025-09-18"
+
+- title: "生成モデルによるCT画像からの血管抽出"
+  category: domestic
+  venue: "IEICE Kyushu 2025"
+  authors: "見田壮一，<strong>竹崎 隼平</strong>，備瀬竜馬"
+  paperurl:
+  code:
+  date: "2025-09-18"
+
+- title: "NoiseCutMix: A Novel Data Augmentation Approach by Mixing Estimated Noise in Diffusion Models"
+  category: conferences
+  venue: "ICCV 2025 Workshop"
+  authors: "<strong>Shumpei Takezaki</strong>, Ryoma Bise, Shinnosuke Matsuo"
+  paperurl: "https://arxiv.org/abs/2509.00378"
+  code: "https://github.com/shumpei-takezaki/NoiseCutMix"
+  date: "2025-08-29"
+
+- title: "拡散モデルによる画像とクラスの共起生成"
+  category: domestic
+  venue: "MIRU 2025"
+  authors: "江口達大，<strong>竹崎 隼平</strong>，備瀬竜馬"
+  paperurl:
+  code:
+  date: "2025-07-29"
+
+- title: "ノイジーな画像で学習した拡散モデルによる画像生成"
+  category: domestic
+  venue: "MIRU 2025"
+  authors: "松崎悠汰，内田誠一，<strong>竹崎 隼平</strong>"
+  paperurl:
+  code:
+  date: "2025-07-29"
+
+- title: "条件付き拡散モデルの不確実性分析"
+  category: domestic
+  venue: "MIRU 2025"
+  authors: "石丸 大晟，<strong>竹崎 隼平</strong>，豊田祥史，備瀬 竜馬"
+  paperurl:
+  code:
+  date: "2025-07-29"
+
+- title: "Rectified Flowによる手書き活字変換"
+  category: domestic
+  venue: "MIRU 2025"
+  authors: "下津曲将，<strong>竹崎 隼平</strong>，内田誠一"
+  paperurl:
+  code:
+  date: "2025-07-29"
+
+- title: "Detecting Scene Text Removal"
+  category: domestic
+  venue: "MIRU 2025"
+  authors: "Takumi Yoshimatsu, <strong>Shumpei Takezaki</strong>, Seiichi Uchida"
+  paperurl:
+  code:
+  date: "2025-07-29"
+
+- title: "Few-Part-Shot Font Generationの提案"
+  category: domestic
+  venue: "MIRU 2025"
+  authors: "Masaki Akiba, <strong>Shumpei Takezaki</strong>, Daichi Haraguchi, Seiichi Uchida"
+  paperurl:
+  code:
+  date: "2025-07-29"
+
+- title: "誤りのある順序付きラベルに対する順序付き Negative Label Learning"
+  category: domestic
+  venue: "MIRU 2025"
+  authors: "<strong>竹崎　隼平</strong>，志久開人，原田翔太，内田誠一"
+  paperurl:
+  code:
+  date: "2025-07-29"
+
+- title: "拡散モデルにおける推定ノイズのCutMixによるデータ拡張"
+  category: domestic
+  venue: "MIRU 2025"
+  authors: "<strong>竹崎 隼平</strong>，備瀬竜馬，松尾信之介"
+  paperurl:
+  code:
+  date: "2025-07-29"
+
+- title: "拡散モデルを用いた細胞検出"
+  category: domestic
+  venue: "MIRU 2025"
+  authors: "田原聖士，<strong>竹崎 隼平</strong>，備瀬竜馬"
+  paperurl:
+  code:
+  date: "2025-07-29"
+
+- title: "Few-Part-Shot Font Generation"
+  category: conferences
+  venue: "ICDAR 2025 Workshop (Best Paper Award)"
+  authors: "Masaki Akiba, <strong>Shumpei Takezaki</strong>, Daichi Haraguchi, Seiichi Uchida"
+  paperurl:
+  code:
+  date: "2025-07-18"
+
+- title: "Inverse Scene Text Removal"
+  category: conferences
+  venue: "ICDAR 2025"
+  authors: "Takumi Yoshimatsu, <strong>Shumpei Takezaki</strong>, Seiichi Uchida"
+  paperurl: "https://arxiv.org/abs/2506.21002"
+  code: "https://github.com/takumi-yoshimatsu/ISTR"
+  date: "2025-07-16"
+
+- title: "Self-Relaxed Joint Training: Sample Selection for Severity Estimation with Ordinal Noisy Labels"
+  category: conferences
+  venue: "WACV 2025 (Oral)"
+  authors: "<strong>Shumpei Takezaki</strong>, Kiyohito Tanaka, Seiichi Uchida"
+  paperurl: "https://arxiv.org/abs/2410.21885"
+  code: "https://github.com/shumpei-takezaki/Self-Relaxed-Joint-Training"
+  date: "2025-02-28"
+
+- title: "重症度を持つ医用画像に対する機械学習"
+  category: domestic
+  venue: "定量生物学の会 2025"
+  authors: "<strong>竹崎 隼平</strong>"
+  paperurl:
+  code:
+  date: "2025-01-11"
+
+- title: "Guidance-base Diffusion Models for Improving Photoacoustic Image Quality"
+  category: conferences
+  venue: "BMVC 2024"
+  authors: "Tatsuhiro Eguchi, <strong>Shumpei Takezaki</strong>, Mihoko Shimano, Takayuki Yagi, Ryoma Bise"
+  paperurl: "https://arxiv.org/abs/2502.06354"
+  code:
+  date: "2024-11-25"
+
+- title: "カラーパレットによる着色指示が可能な拡散モデルによる画像生成"
+  category: domestic
+  venue: "IEICE Kyushu 2024"
+  authors: "永留和真，内田誠一，<strong>竹崎 隼平</strong>"
+  paperurl:
+  code:
+  date: "2024-09-26"
+
+- title: "ノイズキャンセル機能を有した拡散モデル"
+  category: domestic
+  venue: "IEICE Kyushu 2024"
+  authors: "松崎悠汰，内田誠一，<strong>竹崎 隼平</strong>"
+  paperurl:
+  code:
+  date: "2024-09-26"
+
+- title: "拡散モデルを利用した分布外検出"
+  category: domestic
+  venue: "IEICE Kyushu 2024"
+  authors: "石丸大晟，<strong>竹崎 隼平</strong>，備瀬竜馬"
+  paperurl:
+  code:
+  date: "2024-09-26"
+
+- title: "拡散モデルによるScene text removal"
+  category: domestic
+  venue: "IEICE Kyushu 2024"
+  authors: "吉松 拓海，内田 誠一，<strong>竹崎 隼平</strong>"
+  paperurl:
+  code:
+  date: "2024-09-26"
+
+- title: "誤りのある順序付きラベルでの自己緩和型共同学習による重症度推定"
+  category: domestic
+  venue: "MIRU 2024 Oral"
+  authors: "<strong>竹崎 隼平</strong>，田中聖人，内田誠一"
+  paperurl:
+  code:
+  date: "2024-08-08"
+
+- title: "撮像条件情報を用いたガイダンスを導入した拡散モデルによる光超音波画像の画質改善"
+  category: domestic
+  venue: "MIRU 2024 Oral"
+  authors: "江口達大，<strong>竹崎 隼平</strong>，備瀬竜馬"
+  paperurl:
+  code:
+  date: "2024-08-07"
+
+- title: "Cyclic Diffusion Modelの提案とその文字画像変換への応用"
+  category: domestic
+  venue: "MIRU 2024 Oral"
+  authors: "下津曲将，<strong>竹崎 隼平</strong>，原口大地，内田誠一"
+  paperurl:
+  code:
+  date: "2024-08-06"
+
+- title: "An Ordinal Diffusion Model for Generating Medical Images with Different Severity Levels"
+  category: conferences
+  venue: "ISBI 2024"
+  authors: "<strong>Shumpei Takezaki</strong>, Seiichi Uchida"
+  paperurl: "https://arxiv.org/abs/2403.00452"
+  code:
+  date: "2024-05-27"
+
+- title: "拡散モデルによる活字画像の生成"
+  category: domestic
+  venue: "PRMU 2024 March"
+  authors: "下津曲将，<strong>竹崎 隼平</strong>，原口大地，内田誠一"
+  paperurl:
+  code:
+  date: "2024-03-03"
+
+- title: "Cross-Domain Image Conversion by CycleDM"
+  category: conferences
+  venue: "ICDAR 2024"
+  authors: "Sho Shimotsumagari, <strong>Shumpei Takezaki</strong>, Daichi Hraguchi, Seiichi Uchida"
+  paperurl: "https://arxiv.org/abs/2403.02919"
+  code:
+  date: "2024-02-10"
+
+- title: "Font Style Interpolation with Diffusion Models"
+  category: conferences
+  venue: "ICDAR 2024"
+  authors: "Tetta Kondo, <strong>Shumpei Takezaki</strong>, Daichi Hraguchi, Seiichi Uchida"
+  paperurl: "https://arxiv.org/abs/2402.14311"
+  code:
+  date: "2024-02-09"
+
+- title: "重症度クラスを条件とした拡散モデルによる医用画像生成"
+  category: domestic
+  venue: "PRMU 2023 November"
+  authors: "<strong>竹崎 隼平</strong>，内田誠一"
+  paperurl:
+  code:
+  date: "2023-11-16"
+
+- title: "拡散モデル：ノイズ除去による画像生成"
+  category: domestic
+  venue: "学術変革領域「挑戦的両性花原理」若手の会 2023"
+  authors: "<strong>竹崎 隼平</strong>"
+  paperurl:
+  code:
+  date: "2023-10-29"
+
+- title: "事前学習済みU-Netによる画像処理パイプライン"
+  category: domestic
+  venue: "MIRU 2023 Poster"
+  authors: "<strong>竹崎 隼平</strong>，Weizhi shi，Gantugs Atarsaikhan，内田誠一"
+  paperurl:
+  code:
+  date: "2023-07-25"
+
+- title: "Disease Severity Regression with Continuous Data Augmentation"
+  category: conferences
+  venue: "ISBI 2023"
+  authors: "<strong>Shumpei Takezaki</strong>, Seiichi Uchida"
+  paperurl: "https://arxiv.org/abs/2302.12482"
+  code:
+  date: "2023-04-18"
+
+- title: "重症度が連続的に変化する医用生成画像を用いたデータ拡張"
+  category: domestic
+  venue: "PRMU 2022 December"
+  authors: "<strong>竹崎 隼平</strong>，田中聖人，内田誠一，門田健明"
+  paperurl:
+  code:
+  date: "2022-12-15"
+
+- title: "連続的な変化を考慮した医用画像生成"
+  category: domestic
+  venue: "学術変革領域「挑戦的両性花原理」若手の会 2022"
+  authors: "<strong>竹崎 隼平</strong>"
+  paperurl:
+  code:
+  date: "2022-10-23"
+
+- title: "Conditional GANによる医療画像のデータ拡張"
+  category: domestic
+  venue: "IEICE Kyushu 2022"
+  authors: "<strong>竹崎 隼平</strong>，田中聖人，内田誠一，門田健明"
+  paperurl:
+  code:
+  date: "2022-09-16"
+
+- title: "Construction of CNNs for Abnormal Heart Sound Detection using Data Augmentation"
+  category: conferences
+  venue: "IMECS 2021"
+  authors: "<strong>Shumpei Takezaki</strong>, Kazuya Kishida"
+  paperurl: "https://www.iaeng.org/publication/IMECS2021/IMECS2021_pp18-23.pdf"
+  code:
+  date: "2021-01-01"
