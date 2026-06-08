@@ -16,7 +16,7 @@ My research is on generative modeling. I am particularly interested in the appli
 
 ## News
 {% for item in site.data.news %}
-- {% if item.type == "reward" %}<span style="color:red"> [Reward]: </span>{% elsif item.type == "acceptance" %}<span style="color:green"> [Paper Acceptance]: </span>{% endif %}{% if item.link and item.link != "" %}[{{ item.title }}]({{ item.link }}){% else %}{{ item.title }}{% endif %} {{ item.description }}
+- {% if item.date %}<span style="color:gray">{{ item.date }}</span> {% endif %}{% if item.type == "reward" %}<span style="color:red"> [Reward]: </span>{% elsif item.type == "acceptance" %}<span style="color:green"> [Paper Acceptance]: </span>{% endif %}{% if item.link and item.link != "" %}[{{ item.title }}]({{ item.link }}){% else %}{{ item.title }}{% endif %} {{ item.description }}
 {% endfor %}
 
 ## Publications
