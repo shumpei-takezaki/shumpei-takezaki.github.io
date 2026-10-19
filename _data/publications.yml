@@ -3,6 +3,54 @@
 # Optional: paperurl, code
 # category: "conferences" / "journals" / "domestic"
 
+- title: "離散拡散モデルによる3次元CT画像からの血管グラフ構造推定"
+  category: domestic
+  venue: "MIRU 2026"
+  authors: "見田壮一，<strong>竹崎 隼平</strong>，備瀬竜馬"
+  paperurl:
+  code:
+  date: "2026-08-06"
+
+- title: "拡散モデルに基づく画像とクラスラベルの共起学習"
+  category: domestic
+  venue: "MIRU 2026"
+  authors: "呉哲，江口達大，<strong>竹崎 隼平</strong>，備瀬竜馬"
+  paperurl:
+  code:
+  date: "2026-08-06"
+
+- title: "拡散モデルによる疎データからの密細胞画像の段階的生成"
+  category: domestic
+  venue: "MIRU 2026"
+  authors: "田原聖士，西村和也，<strong>竹崎 隼平</strong>，備瀬竜馬"
+  paperurl:
+  code:
+  date: "2026-08-06"
+
+- title: "画像編集モデルを用いた Vision-Language Model の意味的弱点解析"
+  category: domestic
+  venue: "MIRU 2026"
+  authors: "河野隼人，<strong>竹崎 隼平</strong>，志久開人，内田誠一，松尾信之介"
+  paperurl:
+  code:
+  date: "2026-08-06"
+
+- title: "CLIPのZero-shot分類におけるドメイン由来バイアスの教師なし補正"
+  category: domestic
+  venue: "MIRU 2026"
+  authors: "石丸大晟，<strong>竹崎 隼平</strong>，豊田祥史，備瀬竜馬"
+  paperurl:
+  code:
+  date: "2026-08-05"
+
+- title: "Cross-Entropy Can Train Diffusion Models"
+  category: domestic
+  venue: "MIRU 2026 Oral"
+  authors: "<strong>Shumpei Takezaki</strong>, Seiichi Uchida"
+  paperurl:
+  code:
+  date: "2026-08-05"
+
 - title: "Ord-NLL: Negative Label Learning for Ordinal Noisy Labels"
   category: journals
   venue: "IEEE Access"
