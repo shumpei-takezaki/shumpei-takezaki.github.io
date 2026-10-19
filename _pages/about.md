@@ -46,7 +46,7 @@ My research is on generative modeling. I am particularly interested in the appli
 </script>{% endif %}</div>
 
 ## Publications
-For a more comprehensive list of publications, please see [Publications](/publications/) or visit [Google Scholar](https://scholar.google.com/citations?user=TJHgmY8AAAAJ&hl=en) page.
+The full list is available on the [Publications](/publications/) page and on [Google Scholar](https://scholar.google.com/citations?user=TJHgmY8AAAAJ&hl=en).
 
 ## Contact
 <div class="contact-box">

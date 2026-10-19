@@ -3,6 +3,14 @@
 # Optional: paperurl, code
 # category: "conferences" / "journals" / "domestic"
 
+- title: "Ord-NLL: Negative Label Learning for Ordinal Noisy Labels"
+  category: journals
+  venue: "IEEE Access"
+  authors: "<strong>Shumpei Takezaki</strong>, Kaito Shiku, Shota Harada, Kiyohito Tanaka, Seiichi Uchida"
+  paperurl: "https://ieeexplore.ieee.org/abstract/document/11641564/"
+  code:
+  date: "2026-08-04"
+
 - title: "SCoRe: Clean Image Generation from Diffusion Models Trained on Noisy Images"
   category: conferences
   venue: "IJCNN 2026"
