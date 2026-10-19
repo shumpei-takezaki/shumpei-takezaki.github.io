@@ -13,9 +13,12 @@ author_profile: true
 
 <style>
   .pub-list { padding-left: 1.6em; margin: 0 0 1em; font-size: 0.85em; }
-  .pub-list .pub-item { margin: 0; padding: 0.5em 0; border-bottom: 1px solid #ddd; line-height: 1.45; }
-  .pub-list .pub-item i { color: #555; }
-  .pub-list .pub-item:last-child { border-bottom: none; }
+  .pub-item { margin: 0; padding: 0.9em 0; border-bottom: 1px solid #f0f0f0; line-height: 1.7; }
+  .pub-item:last-child { border-bottom: none; }
+  .pub-badge { display: inline-block; padding: 0.1em 0.6em; margin-left: 0.2em; border-radius: 4px; font-size: 0.85em; font-weight: 600; background: #e3f0f3; color: #236879; }
+  .content-link { color: var(--global-link-color); text-decoration: none; border-bottom: 1px solid transparent; transition: border-color 0.15s; }
+  .content-link:hover { border-bottom-color: var(--global-link-color); }
+  .section-divider { height: 3px; background: linear-gradient(to right, #236879, #2f7f93, #7fb8c6, #e3f0f3); border-radius: 2px; margin: 0.5em 0 1.2em; }
 </style>
 
 {% assign sorted_pubs = site.data.publications | sort: "date" | reverse %}
@@ -24,7 +27,7 @@ author_profile: true
   {% for category in site.publication_category %}
     {% assign cat_pubs = sorted_pubs | where: "category", category[0] %}
     {% if cat_pubs.size > 0 %}
-      <h2>{{ category[1].title }}</h2><hr />
+      <h2 style="margin-bottom:0;">{{ category[1].title }}</h2><div class="section-divider"></div>
       <ol class="pub-list">
         {% for pub in cat_pubs %}
           {% include archive-single-pub.html pub=pub %}

@@ -15,27 +15,44 @@ Before starting my Ph.D, I received my undergraduate degree in ECE from the Kago
 My research is on generative modeling. I am particularly interested in the applications of generative modeling for medical imaging.
 
 <style>
-  .news-row { display: flex; gap: 1.2em; padding: 0.5em 0; border-bottom: 1px solid #ddd; }
-  .news-row:last-child { border-bottom: none; }
+  .news-row { display: flex; gap: 1.2em; padding: 0.5em 0; border-top: 1px solid #ddd; }
+  .news-row.first { border-top: none; }
+  .news-more { background: none; border: none; padding: 0.5em 0; color: var(--global-link-color); cursor: pointer; font: inherit; }
+  .news-more:hover { text-decoration: underline; }
   .news-date { flex: 0 0 5.5em; color: gray; white-space: nowrap; }
   .news-text { flex: 1; }
   @media (max-width: 480px) { .news-row { flex-direction: column; gap: 0.1em; } }
-  .contact-list ul { list-style: none !important; padding-left: 0; }
-  .contact-list li { list-style: none !important; }
+  .contact-box { background: #f9fafb; border-radius: 0.75rem; padding: 1.2em 1.5em; font-size: 0.85em; line-height: 1.7; color: #374151; }
+  .contact-box p { margin: 0; }
+  .contact-org { font-weight: 600; color: #236879; margin-bottom: 0.3em !important; }
+  .contact-mail { margin-top: 0.6em !important; }
+  .contact-mail span { font-family: monospace; color: var(--global-link-color); }
 </style>
 
 ## News
+{% assign news_visible = 5 %}{% assign news_split = news_visible | plus: 1 %}
 <div class="news-list">
-{% for item in site.data.news %}<div class="news-row"><div class="news-date">{{ item.date }}</div><div class="news-text" markdown="span">{% if item.link and item.link != "" %}[{{ item.title }}]({{ item.link }}){% else %}{{ item.title }}{% endif %} {{ item.description }}</div></div>
-{% endfor %}</div>
+{% for item in site.data.news %}{% if forloop.index == news_split %}<div id="news-extra" hidden>{% endif %}<div class="news-row{% if forloop.first %} first{% endif %}"><div class="news-date">{{ item.date }}</div><div class="news-text" markdown="span">{{ item.text }}</div></div>
+{% endfor %}{% if site.data.news.size > news_visible %}</div>
+<button type="button" class="news-more" id="news-toggle" aria-expanded="false">Show more</button>
+<script>
+  document.getElementById('news-toggle').addEventListener('click', function () {
+    var extra = document.getElementById('news-extra');
+    var open = extra.hidden;
+    extra.hidden = !open;
+    this.textContent = open ? 'Show less' : 'Show more';
+    this.setAttribute('aria-expanded', open);
+  });
+</script>{% endif %}</div>
 
 ## Publications
 For a more comprehensive list of publications, please see [Publications](/publications/) or visit [Google Scholar](https://scholar.google.com/citations?user=TJHgmY8AAAAJ&hl=en) page.
 
 ## Contact
-<div class="contact-list" markdown="1">
-- Address: Human Interface Laboratory, Department of Advanced Information Technology, Kyushu University. 744, Motooka, Nishi-ku, Fukuoka-shi, 819-0395 JAPAN
-- TEL: +81-92-802-3574
-- E-mail: shumpei.takezaki[at]human.ait.kyushu-u.ac.jp
-
+<div class="contact-box">
+  <p class="contact-org">Human Interface Laboratory, Department of Advanced Information Technology</p>
+  <p>Kyushu University</p>
+  <p>744, Motooka, Nishi-ku, Fukuoka-shi, 819-0395 JAPAN</p>
+  <p>TEL: +81-92-802-3574</p>
+  <p class="contact-mail">E-mail: <span>shumpei.takezaki[at]human.ait.kyushu-u.ac.jp</span></p>
 </div>

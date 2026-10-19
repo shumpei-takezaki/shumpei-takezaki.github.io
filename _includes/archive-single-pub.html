@@ -1,6 +1,7 @@
 <li class="pub-item">
-  {{ include.pub.authors }}<br>
-  {{ include.pub.title }}<br>
-  <i>{{ include.pub.venue }}</i>{% if include.pub.paperurl or include.pub.code %}<br>
-  {% if include.pub.paperurl %}[<a href="{{ include.pub.paperurl }}" target="_blank">Paper</a>]{% endif %}{% if include.pub.code %} [<a href="{{ include.pub.code }}" target="_blank">Code</a>]{% endif %}{% endif %}
+  {{ include.pub.authors }},
+  "{{ include.pub.title }}",
+  {% if include.pub.category == "domestic" %}<em>{{ include.pub.venue }}</em>{% else %}{% assign venue_parts = include.pub.venue | split: " (" %}<span class="pub-badge">{{ venue_parts[0] }}</span>{% if venue_parts.size > 1 %} ({{ venue_parts[1] }}{% endif %}{% endif %}
+  {% if include.pub.paperurl %}[<a href="{{ include.pub.paperurl }}" class="content-link" target="_blank">Paper</a>]{% endif %}
+  {% if include.pub.code %}[<a href="{{ include.pub.code }}" class="content-link" target="_blank">Code</a>]{% endif %}
 </li>

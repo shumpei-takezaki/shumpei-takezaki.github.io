@@ -1,21 +1,30 @@
 # News items — add new entries at the TOP of the list.
-# type: "reward" (red) or "acceptance" (green)
-# link: arxiv URL etc. Leave empty ("") if no link.
+# date: "YYYY-MM"
+# text: one short sentence. Markdown OK (e.g. **IJCNN 2026** for bold).
 
-- type: reward
-  date: "2026-06"
-  title: "Bridging the Density Gap: Diffusion Model for Stepwise Generation of Dense Cell Images from Sparse Data"
-  link: ""
-  description: "got **ISBI 2026 Best Paper Award-Runner UP** (Top 3 papers selected for publication)."
+- date: "2026-06"
+  text: "Received the **Best Paper Award-Runner Up** at **ISBI 2026**."
 
-- type: acceptance
-  date: "2026-04"
-  title: "Cell Instance Segmentation via Multi-Task Image-to-Image Schrödinger Bridge"
-  link: "https://arxiv.org/abs/2604.12318"
-  description: "got accepted to **IJCNN 2026**."
+- date: "2026-04"
+  text: "Two papers were accepted to **IJCNN 2026**."
 
-- type: acceptance
-  date: "2026-04"
-  title: "SCoRe: Clean Image Generation from Diffusion Models Trained on Noisy Images"
-  link: "https://arxiv.org/abs/2604.09436"
-  description: "got accepted to **IJCNN 2026**."
+- date: "2025-08"
+  text: "A paper was accepted to **ICCV 2025 Workshop**."
+
+- date: "2025-07"
+  text: "Received the **Best Paper Award** at **ICDAR 2025 Workshop**."
+
+- date: "2025-07"
+  text: "A paper was accepted to **ICDAR 2025**."
+
+- date: "2025-02"
+  text: "A paper was accepted to **WACV 2025** (Oral)."
+
+- date: "2024-11"
+  text: "A paper was accepted to **BMVC 2024**."
+
+- date: "2024-08"
+  text: "Received the **MIRU 2024 Student Encouragement Award** (MIRU 2024 学生奨励賞)."
+
+- date: "2024-05"
+  text: "A paper was accepted to **ISBI 2024**."
