@@ -1,3 +1,6 @@
-<li style="margin-bottom: 0.8em;">
-  "{{ include.pub.title }}" — <span style="color: #555; font-size: 0.95em;">{{ include.pub.authors }}, <i>{{ include.pub.venue }}</i>{% if include.pub.paperurl %} <a href="{{ include.pub.paperurl }}" target="_blank">[Paper]</a>{% endif %}{% if include.pub.code %} <a href="{{ include.pub.code }}" target="_blank">[Code]</a>{% endif %}</span>
+<li class="pub-item">
+  {{ include.pub.authors }}<br>
+  {{ include.pub.title }}<br>
+  <i>{{ include.pub.venue }}</i>{% if include.pub.paperurl or include.pub.code %}<br>
+  {% if include.pub.paperurl %}[<a href="{{ include.pub.paperurl }}" target="_blank">Paper</a>]{% endif %}{% if include.pub.code %} [<a href="{{ include.pub.code }}" target="_blank">Code</a>]{% endif %}{% endif %}
 </li>
