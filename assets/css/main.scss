@@ -13,6 +13,7 @@
 
     "themes",
     "theme/{{ site.site_theme | default: 'default' }}",
+    "theme/toggle",
 
     "include/mixins",
     "vendor/susy/susy",

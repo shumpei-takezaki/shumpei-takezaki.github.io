@@ -15,16 +15,16 @@ Before starting my Ph.D, I received my undergraduate degree in ECE from the Kago
 My research is on generative modeling. I am particularly interested in the applications of generative modeling for medical imaging.
 
 <style>
-  .news-row { display: flex; gap: 1.2em; padding: 0.5em 0; border-top: 1px solid #ddd; }
+  .news-row { display: flex; gap: 1.2em; padding: 0.5em 0; border-top: 1px solid var(--line-color); }
   .news-row.first { border-top: none; }
   .news-more { background: none; border: none; padding: 0.5em 0; color: var(--global-link-color); cursor: pointer; font: inherit; }
   .news-more:hover { text-decoration: underline; }
   .news-date { flex: 0 0 5.5em; color: gray; white-space: nowrap; }
   .news-text { flex: 1; }
   @media (max-width: 480px) { .news-row { flex-direction: column; gap: 0.1em; } }
-  .contact-box { background: #f9fafb; border-radius: 0.75rem; padding: 1.2em 1.5em; font-size: 0.85em; line-height: 1.7; color: #374151; }
+  .contact-box { background: var(--box-bg); border-radius: 0.75rem; padding: 1.2em 1.5em; font-size: 0.85em; line-height: 1.7; color: var(--box-text); }
   .contact-box p { margin: 0; }
-  .contact-org { font-weight: 600; color: #236879; margin-bottom: 0.3em !important; }
+  .contact-org { font-weight: 600; color: var(--accent-color); margin-bottom: 0.3em !important; }
   .contact-mail { margin-top: 0.6em !important; }
   .contact-mail span { font-family: monospace; color: var(--global-link-color); }
 </style>

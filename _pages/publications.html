@@ -13,12 +13,12 @@ author_profile: true
 
 <style>
   .pub-list { padding-left: 1.6em; margin: 0 0 1em; font-size: 0.85em; }
-  .pub-item { margin: 0; padding: 0.9em 0; border-bottom: 1px solid #f0f0f0; line-height: 1.7; }
+  .pub-item { margin: 0; padding: 0.9em 0; border-bottom: 1px solid var(--line-color-soft); line-height: 1.7; }
   .pub-item:last-child { border-bottom: none; }
-  .pub-badge { display: inline-block; padding: 0.1em 0.6em; margin-left: 0.2em; border-radius: 4px; font-size: 0.85em; font-weight: 600; background: #e3f0f3; color: #236879; }
+  .pub-badge { display: inline-block; padding: 0.1em 0.6em; margin-left: 0.2em; border-radius: 4px; font-size: 0.85em; font-weight: 600; background: var(--badge-bg); color: var(--badge-text); }
   .content-link { color: var(--global-link-color); text-decoration: none; border-bottom: 1px solid transparent; transition: border-color 0.15s; }
   .content-link:hover { border-bottom-color: var(--global-link-color); }
-  .section-divider { height: 3px; background: linear-gradient(to right, #236879, #2f7f93, #7fb8c6, #e3f0f3); border-radius: 2px; margin: 0.5em 0 1.2em; }
+  .section-divider { height: 3px; background: linear-gradient(to right, var(--grad-1), var(--grad-2), var(--grad-3), var(--grad-4)); border-radius: 2px; margin: 0.5em 0 1.2em; }
 </style>
 
 {% assign sorted_pubs = site.data.publications | sort: "date" | reverse %}

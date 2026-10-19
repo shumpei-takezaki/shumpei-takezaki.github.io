@@ -1,3 +1,14 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
 
 {% include analytics.html %}
+
+<script>
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest ? e.target.closest('.theme-toggle') : null;
+    if (!btn) return;
+    e.preventDefault();
+    var next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    try { localStorage.setItem('theme', next); } catch (err) {}
+  });
+</script>

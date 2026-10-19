@@ -1,0 +1,65 @@
+/* ==========================================================================
+   LIGHT / DARK TOGGLE
+   Light values are the defaults; html[data-theme="dark"] overrides them.
+   ========================================================================== */
+
+:root {
+  --line-color      : #ddd;
+  --line-color-soft : #f0f0f0;
+  --accent-color    : #236879;
+  --badge-bg        : #e3f0f3;
+  --badge-text      : #236879;
+  --box-bg          : #f9fafb;
+  --box-text        : #374151;
+  --grad-1          : #236879;
+  --grad-2          : #2f7f93;
+  --grad-3          : #7fb8c6;
+  --grad-4          : #e3f0f3;
+}
+
+html[data-theme="dark"] {
+  color-scheme: dark;
+
+  --global-base-color                : #9aa3a9;
+  --global-bg-color                  : #1e2225;
+  --global-border-color              : #3a4147;
+  --global-code-background-color     : #2a2f33;
+  --global-code-text-color           : #d1d5db;
+  --global-fig-caption-color         : #9aa3a9;
+  --global-link-color                : #5bb8cf;
+  --global-link-color-hover          : #8fd3e4;
+  --global-link-color-visited        : #8fd3e4;
+  --global-masthead-link-color       : #e6e8ea;
+  --global-masthead-link-color-hover : #ffffff;
+  --global-text-color                : #d9dcde;
+  --global-text-color-light          : #9aa3a9;
+  --global-thead-color               : #2a2f33;
+
+  --line-color      : #3a4147;
+  --line-color-soft : #2f353a;
+  --accent-color    : #7cc4d8;
+  --badge-bg        : #264a55;
+  --badge-text      : #a9dbe8;
+  --box-bg          : #2a2f33;
+  --box-text        : #d1d5db;
+  --grad-1          : #7cc4d8;
+  --grad-2          : #2f7f93;
+  --grad-3          : #245a69;
+  --grad-4          : #1e2225;
+}
+
+.greedy-nav a.theme-toggle {
+  display: flex;
+  align-items: center;
+  margin: 0 0.5rem;
+  color: var(--global-masthead-link-color);
+
+  &:hover { color: var(--global-masthead-link-color-hover); }
+
+  svg { width: 28px; height: 28px; display: none; fill: currentColor; }
+}
+
+html[data-theme="light"] .greedy-nav a.theme-toggle .icon-light,
+html[data-theme="dark"]  .greedy-nav a.theme-toggle .icon-dark {
+  display: block;
+}
