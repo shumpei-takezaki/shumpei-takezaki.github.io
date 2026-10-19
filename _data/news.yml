@@ -2,6 +2,12 @@
 # date: "YYYY-MM"
 # text: one short sentence. Markdown OK (e.g. **IJCNN 2026** for bold).
 
+- date: "2026-10"
+  text: "A paper was accepted to **WACV 2027**."
+
+- date: "2026-08"
+  text: "A paper was accepted to **BMVC 2026**."
+
 - date: "2026-08"
   text: "A paper was accepted to **IEEE Access**."
 

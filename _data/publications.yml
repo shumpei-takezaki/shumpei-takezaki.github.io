@@ -51,6 +51,22 @@
   code:
   date: "2026-08-05"
 
+- title: "Biological Congruence: Evaluating Microscopy Generation Across Representations"
+  category: conferences
+  venue: "WACV 2027"
+  authors: "Duway Nicolas Lesmes-Leon, <strong>Shumpei Takezaki</strong>, Fabian Schmeisser, Ryoma Bise, Gillian Lovell, Bianca Migliori, Andreas Dengel, Sheraz Ahmed"
+  paperurl:
+  code:
+  date: "2027-01-06"
+
+- title: "Rethinking Microscopy Generation: Co-Designed Diffusion for Biologically Interpretable Single-Cell Synthesis"
+  category: conferences
+  venue: "BMVC 2026"
+  authors: "<strong>Shumpei Takezaki</strong>*, Duway Nicolas Lesmes-Leon*, Ryoma Bise, Gillian Lovell, Bianca Migliori, Andreas Dengel, Sheraz Ahmed (*Equal contribution)"
+  paperurl:
+  code:
+  date: "2026-11-23"
+
 - title: "Ord-NLL: Negative Label Learning for Ordinal Noisy Labels"
   category: journals
   venue: "IEEE Access"

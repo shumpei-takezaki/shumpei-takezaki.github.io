@@ -8,9 +8,11 @@ redirect_from:
 ---
 
 ## Biography
-I am Shumpei Takezaki (竹崎 隼平 in Japanse), a Ph.D student at Kyushu University, Fukuoka, JAPAN, under the supervision of [Prof. Seiichi Uhicda](https://human.ait.kyushu-u.ac.jp/~uchida/index-e.html).
+I am Shumpei Takezaki (竹崎 隼平 in Japanese), a Ph.D student at Kyushu University, Fukuoka, JAPAN, under the supervision of [Prof. Seiichi Uchida](https://human.ait.kyushu-u.ac.jp/~uchida/index-e.html).
 
 Before starting my Ph.D, I received my undergraduate degree in ECE from the Kagoshima Technical College, Kagoshima, JAPAN.
+
+From August 2025 to July 2026, I was a visiting researcher at the [German Research Center for Artificial Intelligence (DFKI)](https://www.dfki.de/en/web).
 
 My research is on generative modeling. I am particularly interested in the applications of generative modeling for medical imaging.
 
