@@ -19,3 +19,8 @@ author_profile: true
 <ol class="others-list">
 {% for item in site.data.others.grants %}<li markdown="span">{{ item.text }}</li>
 {% endfor %}</ol>
+
+## Workshop Organization
+<ol class="others-list">
+{% for item in site.data.others.workshops %}<li markdown="span">{{ item.text }}</li>
+{% endfor %}</ol>

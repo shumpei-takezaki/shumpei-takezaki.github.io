@@ -61,7 +61,7 @@
 
 ---
 
-## 受賞・グラントを追加する
+## 受賞・グラント・ワークショップ運営を追加する
 
 [`_data/others.yml`](_data/others.yml) の該当セクションの **先頭** に追加する。
 
@@ -73,7 +73,13 @@ awards:
 grants:
   - text: "新しいグラント..."          # ← ここに追加
   - text: "既存のグラント..."
+
+workshops:
+  - text: "[ワークショップ名](URL), ACCV 2026 Workshop, December 15, 2026, Osaka, Japan. Organizer."  # ← ここに追加
 ```
+
+- `text` は Markdown が使える。ワークショップ名は `[名前](URL)` でリンクにする。
+- Others ページの「Workshop Organization」に表示される。
 
 ---
 
