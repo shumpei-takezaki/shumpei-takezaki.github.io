@@ -54,7 +54,7 @@
 - title: "Biological Congruence: Evaluating Microscopy Generation Across Representations"
   category: conferences
   venue: "WACV 2027"
-  authors: "Duway Nicolas Lesmes-Leon, <strong>Shumpei Takezaki</strong>, Fabian Schmeisser, Ryoma Bise, Gillian Lovell, Bianca Migliori, Andreas Dengel, Sheraz Ahmed"
+  authors: "Duway Nicolas Lesmes-Leon*, <strong>Shumpei Takezaki</strong>*, Fabian Schmeisser, Ryoma Bise, Gillian Lovell, Bianca Migliori, Andreas Dengel, Sheraz Ahmed (*Equal contribution)"
   paperurl:
   code:
   date: "2027-01-06"
@@ -63,7 +63,7 @@
   category: conferences
   venue: "BMVC 2026"
   authors: "<strong>Shumpei Takezaki</strong>*, Duway Nicolas Lesmes-Leon*, Ryoma Bise, Gillian Lovell, Bianca Migliori, Andreas Dengel, Sheraz Ahmed (*Equal contribution)"
-  paperurl:
+  paperurl: "https://arxiv.org/abs/2610.33398"
   code:
   date: "2026-11-23"
 

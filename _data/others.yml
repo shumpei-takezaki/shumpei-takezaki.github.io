@@ -1,4 +1,4 @@
-# Awards, Grants and Workshop Organization — add new entries at the TOP of each list.
+# Awards, Grants and Organizing Activities — add new entries at the TOP of each list.
 
 awards:
   - text: "International Symposium on Biomedical Imaging (ISBI), Best Paper Awad-Runner UP, 2026."
@@ -12,6 +12,9 @@ awards:
 grants:
   - text: "日本学術振興会 科学研究費助成事業 特別研究員奨励費 ``画像変換器のカスケードによる説明可能な画像生成'' ，2024年4月-2027年3月"
 
-workshops:
+organizing:
   - text: "[MM4SciReal: Multimodal AI for Science and the Real World](https://mm4scireal.github.io/), ACCV 2026 Workshop, December 15, 2026, Osaka, Japan."
   - text: "[LIMIT: Representation Learning with Very Limited Resources](https://eccv2026-limit-workshop.limitlab.xyz/), ECCV 2026 Workshop (4th LIMIT Workshop), September 8, 2026, Malmö, Sweden."
+  - text: "[LENS (Learning and Exchange Network for Vision Studies)](https://lens-kousiki.com/), a community of young computer vision researchers in Japan, since August 2026."
+
+reviewer: "CVPR, MICCAI, IJCNN, ICML, ICLR, AAAI, MIRU"
