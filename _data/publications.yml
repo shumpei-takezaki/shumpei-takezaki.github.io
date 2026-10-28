@@ -255,7 +255,7 @@
   category: conferences
   venue: "ICDAR 2025 Workshop (Best Paper Award)"
   authors: "Masaki Akiba, <strong>Shumpei Takezaki</strong>, Daichi Haraguchi, Seiichi Uchida"
-  paperurl:
+  paperurl: "https://arxiv.org/abs/2509.10006"
   code:
   date: "2025-07-18"
 
