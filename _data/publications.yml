@@ -72,7 +72,7 @@
   venue: "IEEE Access"
   authors: "<strong>Shumpei Takezaki</strong>, Kaito Shiku, Shota Harada, Kiyohito Tanaka, Seiichi Uchida"
   paperurl: "https://ieeexplore.ieee.org/abstract/document/11641564/"
-  code:
+  code: "https://github.com/shumpei-takezaki/OrdNLL"
   date: "2026-08-04"
 
 - title: "SCoRe: Clean Image Generation from Diffusion Models Trained on Noisy Images"
